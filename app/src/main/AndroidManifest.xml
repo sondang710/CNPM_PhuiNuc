@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hktstudio.thibanglaixe">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.BienBaoActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.MainActivity"
+            android:label="Traffic Signs"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.LyThuyetActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.MainActivity"
+            android:label="Theory Driving"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.MeoGhiNhoActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.MainActivity"
+            android:label="Memorization Tips"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.MeoThucHanhAActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.MainActivity"
+            android:label="Practical Tips"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.MeoThucHanhBActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.MainActivity"
+            android:label="Practical Tips"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.KinhNghiemThiAActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.MeoThucHanhAActivity"
+            android:label="Testing Experiments"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.KinhNghiemThiBActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.MeoThucHanhBActivity"
+            android:label="Testing Experiments"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.ThiSatHachActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.MainActivity"
+            android:label="Test"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.KetQuaActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.MainActivity"
+            android:label="Result"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.XemLaiDapAnActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.KetQuaActivity"
+            android:label="Review Answer"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.hktstudio.thibanglaixe.Activities.LichSuBaiThiActivity"
+            android:parentActivityName="com.hktstudio.thibanglaixe.Activities.MainActivity"
+            android:label="History Test"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+    </application>
+
+</manifest>

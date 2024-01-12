@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group
+        android:id="@+id/mn1"
+        >
+        <item
+            android:id="@+id/item_tatca"
+            android:title="All Traffic Signs" />
+    </group>
+    <group
+        android:id="@+id/mn2"
+        >
+        <item
+            android:id="@+id/item_nguyhiem"
+            android:title="Warning Traffic Signs" />
+    </group>
+    <group
+        android:id="@+id/mn3"
+        >
+        <item
+            android:id="@+id/item_cam"
+            android:title="Prohibitory Traffic Signs " />
+    </group>
+    <group
+        android:id="@+id/mn4"
+        >
+        <item
+            android:id="@+id/item_hieulenh"
+            android:title="Mandatory Traffic Signs" />
+    </group>
+    <group
+        android:id="@+id/mn5"
+        >
+        <item
+            android:id="@+id/item_chidan"
+            android:title="Indication Traffic Signs" />
+    </group>
+    <group
+        android:id="@+id/mn6"
+        >
+        <item
+            android:id="@+id/item_phu"
+            android:title="Additional Panels" />
+    </group>
+
+</menu>
